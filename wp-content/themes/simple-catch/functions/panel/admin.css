@@ -1,0 +1,176 @@
+#catchthemes .tabNavigation {
+	margin-top:15px;
+	height: 30px;
+	line-height: 20px;
+	font: 13px Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	line-height: 18px;
+}
+#catchthemes .tabNavigation li {
+	float:left;
+}
+#catchthemes .tabNavigation li a {
+	text-decoration:none;
+	padding: 5px 13px;
+	display: block;
+	border: 1px solid #E3E3E3;
+	border-left-color: #fff;
+	background: url( '../../../../../wp-admin/images/menu-bits.gif' ) repeat-x left -379px #F1F1F1;
+}
+#catchthemes .tabNavigation li:first-child a {
+	border-left-color: #e3e3e3;
+	-moz-border-radius: 6px 0 0 6px;
+	-webkit-border-radius: 6px 0 0 6px;
+	border-radius: 6px 0 0 6px;
+}
+#catchthemes .tabNavigation li:last-child a {
+	-moz-border-radius: 0 6px 6px 0;
+	-webkit-border-radius: 0 6px 6px 0;
+	border-radius: 0 6px 6px 0;
+}
+#catchthemes .tabNavigation .ui-tabs-selected a {
+	background: url( '../../../../../wp-admin/images/menu-bits.gif' ) repeat-x left top #E0E0E0;
+	border-color: #aaa !important;
+	color: #000;
+}
+#catchthemes #videos textarea, #howimadeit textarea {
+	height: 150px;
+	width: 400px;
+}
+#catchthemes #faq ul li {
+	list-style:disc inside none;
+}
+#sociallinks .form-table th {
+	padding: 0px;
+}
+#catchthemes .form-table select[multiple] {
+	height: 200px;
+}
+
+#catchthemes .form-table label.box {
+	float: left;
+	margin-right: 30px;
+}
+.option-container {
+	width: 90%;
+}
+h3.option-toggle {
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin: 20px 0 0 0;
+	min-width: 600px;
+	border:1px solid #dfdfdf;
+	background-color: #F1F1F1;
+	background-image: -ms-linear-gradient(top, #f9f9f9, #ececec);
+	background-image: -moz-linear-gradient(top, #f9f9f9, #ececec);
+	background-image: -o-linear-gradient(top, #f9f9f9, #ececec);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec));
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec);
+	background-image: linear-gradient(top, #f9f9f9, #ececec);
+	height: 34px;
+	line-height: 34px;
+	font-size: 15px;
+	font-weight: normal;
+	float: left;
+	padding: 0;
+	width: 98%;
+}
+h3.option-toggle a {
+	background:url(../../images/arrow-light.png) 99% 50% no-repeat;
+	color: #464646;
+	padding-left: 10px;
+	text-decoration: none;
+	display: block;
+	text-shadow:#fff 0 1px 0;
+}
+h3.option-toggle a:hover, h3.option-active a {
+	background:url(../../images/arrow-dark.png) 99% 50% no-repeat;
+	color: #444;
+}
+.option-content {
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	margin: 0;
+	min-width: 600px;
+	padding: 0;
+	border: 1px solid #dfdfdf;
+	border-top:none;
+	background: #fcfcfc;
+	overflow: hidden;
+	font-size: 12px;
+	clear: both;
+	color: #333;
+	width: 98%;
+}
+.option-content p {
+	padding-left: 10px;
+}
+
+#info-support {
+	clear: both;
+    padding: 20px 0;
+}
+#info-support .button {
+	border: none;
+	color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 27px;
+    margin-left: 10px;
+    padding: 0 15px;
+	text-shadow: none;
+	opacity: 1;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	box-shadow: 0px 1px 1px #2e2f31;
+	-moz-box-shadow:0px 1px 1px #2e2f31;
+	-webkit-box-shadow:0px 1px 1px #2e2f31;	
+}
+#info-support .button:hover {
+	opacity: 0.8;
+}
+#info-support .support {
+	background:url(images/brown-bg.jpg) center top repeat-x #a1913c;
+}
+#info-support .themes { 
+	background:url(images/blue-bg.jpg) center top repeat-x #4d6175;
+}
+#info-support .facebook { 
+	background:url(images/facebook-bg.jpg) center top repeat-x #3a589c;
+}
+#info-support .twitter {
+	background:url(images/twitter-bg.jpg) center top repeat-x #d90505;
+}
+#info-support .donate { 
+	background:url(images/green-bg.jpg) center top repeat-x #5e8c10;
+}
+#info-support .upgrade,
+#info-support .theme-social {
+	display: inline-block;
+	float: left;
+}
+#info-support .upgrade {
+	margin-right: 10px;
+}
+#info-support .upgrade a {
+    background: url("images/green-bg.jpg") repeat-x scroll center top #5E8C10;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px !important;
+    height: 35px;
+    line-height: 34px;
+}
+#info-support .theme-social .widget-fb {
+    padding-bottom: 5px;
+}
+.clear {
+	clear: both;
+}

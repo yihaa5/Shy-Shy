@@ -1,0 +1,163 @@
+
+/* Error and Dialog Messages */
+
+#wpmem_msg, .wpmem_msg {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: whiteSmoke;
+	border: 1px solid #EEE;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+/* Sidebar Login Widget */
+
+#wp-members  { margin-bottom: 20px; }
+#wp-members fieldset { padding-top: 6px; }
+#wp-members label { color: #000; }
+#wp-members .div_text { padding-top: 8px; }
+#wp-members .username, #wp-members .password {
+	width:176px;
+	padding:4px 5px 4px 5px;
+}
+#wp-members .button_div { margin-top:8px; }
+#wp-members .err {
+	width: 178px;
+	background-color: #EDDBE3;
+	color: #BD4247;
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 18px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	border: 1px solid #E8D1DF;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/* Login Form and Registration Form */
+
+#wpmem_reg form, #wpmem_login form, .wpcf7-form{
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: whiteSmoke;
+	border: 1px solid #EEE;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#wpmem_reg label, #wpmem_login label {
+	float: left;
+	width: 140px;
+	text-align: right;
+	padding-top: 8px;
+	padding-right: 20px;
+}
+#wpmem_reg .div_text, #wpmem_login .div_text {
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+#wpmem_login .button_div {
+	padding: 10px;
+	margin-left: 206px;
+}
+#wpmem_reg .button_div {
+	padding: 10px;
+	margin-left: 216px;
+}
+#wpmem_login a { 
+	margin-right: 220px; 
+	margin-top: 10px;
+}
+#wpmem_login input[type="password"]{
+height: 18px;
+padding: 4px;
+font-size: 13px;
+line-height: 18px;
+color: #555;
+border: 1px solid #CCC;
+-webkit-border-radius: 3px;
+}
+#wpmem_reg .req { color: red; }
+
+#wpmem_reg .div_checkbox { padding-top: 6px; }
+
+/**
+ * This is to correct the text input boxes
+ * for the bootstrap icon sprites
+ */
+#wpmem_login .username,
+#wpmem_login .password,
+#wpmem_login .textbox{
+	width: 182px; 
+}
+
+/**
+ * This is for the TOS checkbox alignment
+ * and the newsletter checkbox alignment
+ */
+#tos, #mc_subscribe{ margin-left: 160px; }
+
+/**
+ * This is for the Contact Form 7 Submit Button
+ */
+.btn{display:inline-block;padding:4px 10px 4px;margin-bottom:0;font-size:13px;line-height:18px;color:#333333;text-align:center;text-shadow:0 1px 1px rgba(255, 255, 255, 0.75);vertical-align:middle;background-color:#f5f5f5;background-image:-moz-linear-gradient(top, #ffffff, #e6e6e6);background-image:-ms-linear-gradient(top, #ffffff, #e6e6e6);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));background-image:-webkit-linear-gradient(top, #ffffff, #e6e6e6);background-image:-o-linear-gradient(top, #ffffff, #e6e6e6);background-image:linear-gradient(top, #ffffff, #e6e6e6);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);border-color:#e6e6e6 #e6e6e6 #bfbfbf;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);border:1px solid #ccc;border-bottom-color:#bbb;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);cursor:pointer;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);*margin-left:.3em;}
+.wpcf7-submit:hover,.wpcf7-submit:active{background-color:#e6e6e6;}
+.wpcf7-submit:active{background-color:#cccccc \9;}
+
+.wpcf7-submit:hover{color:#333333;text-decoration:none;background-color:#e6e6e6;background-position:0 -15px;-webkit-transition:background-position 0.1s linear;-moz-transition:background-position 0.1s linear;-ms-transition:background-position 0.1s linear;-o-transition:background-position 0.1s linear;transition:background-position 0.1s linear;}
+.wpcf7-submit:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+.wpcf7-submit:active{background-image:none;-webkit-box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.15),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.15),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.15),0 1px 2px rgba(0, 0, 0, 0.05);background-color:#e6e6e6;background-color:#d9d9d9 \9;outline:0;}
+
+.wpcf7-submit,.wpcf7-submit:hover{text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);color:#ffffff;}
+.wpcf7-submit{background-color:#006dcc;background-image:-moz-linear-gradient(top, #0088cc, #0044cc);background-image:-ms-linear-gradient(top, #0088cc, #0044cc);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));background-image:-webkit-linear-gradient(top, #0088cc, #0044cc);background-image:-o-linear-gradient(top, #0088cc, #0044cc);background-image:linear-gradient(top, #0088cc, #0044cc);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);border-color:#0044cc #0044cc #002a80;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}.wpcf7-submit:hover,.wpcf7-submit:active{background-color:#0044cc;}
+.wpcf7-submit:active{background-color:#003399 \9;}
+
+
+/**
+ * This is for the syntaxhighlighter...
+ * specifically for fixing wrap as a result of the shortcode files we are parsing...
+ */
+.syntaxhighlighter {
+	width: 630px;
+	overflow-x:scroll !important;
+}
+
+
+/**
+ * CSS to put the admin bar on the bottom of the page
+ * 
+ * from: https://github.com/coenjacobs/stick-admin-bar-to-bottom
+ */
+html body {margin-top: 0 !important;}
+body.admin-bar {margin-top: -28px;padding-bottom: 28px;}
+body.wp-admin #footer {padding-bottom: 28px;}
+#wpadminbar {top: auto !important;bottom: 0;}
+#wpadminbar .quicklinks .ab-sub-wrapper {bottom: 28px;}
+#wpadminbar .quicklinks .ab-sub-wrapper ul .ab-sub-wrapper {bottom: -7px;}
+
+
+/**
+ * Custom CSS for the custom reCAPTCHA
+ */
+.captcha { width: 1000px, height: 300px; }
+#recaptcha_image, #recaptcha_bottom, #recaptcha_text { 
+	float: left; 
+	margin-left: 160px;
+}
+#recaptcha_image, #recaptcha_response_field {
+	border: 1px solid #CCC;
+	-webkit-border-radius: 3px;
+}
+#recaptcha_image { margin-top: 12px; }
+#recaptcha_response_field { margin-bottom: 10px; }
