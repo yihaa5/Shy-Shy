@@ -141,18 +141,18 @@ function wpmem_do_sidebar()
 					<input type="hidden" name="redirect_to" value="' . $post_to . '" />
 					<input type="hidden" name="a" value="login" />
 					<input type="hidden" name="slog" value="true" />
-					<div class="button_div"><input type="submit" name="Submit" class="buttons" value="' . __( 'login', 'wp-members' ) . '" />';
+					<input type="submit" name="Submit" class="btn" value="' . __( 'login', 'wp-members' ) . '" />';
 			 		
 			if( WPMEM_MSURL != null ) { 
 				$link = wpmem_chk_qstr( WPMEM_MSURL );
-				$str.= ' <a href="' . $link . 'a=pwdreset">' . __( 'Forgot?', 'wp-members' ) . '</a>&nbsp;';
+				$str.= ' <a href="' . $link . 'a=pwdreset"><button class="btn">' . __( 'Forgot?', 'wp-members' ) . '</button></a>&nbsp;';
 			} 			
 			
 			if( WPMEM_REGURL != null ) {
-				$str.= ' <a href="' . WPMEM_REGURL . '">' . __( 'Register', 'wp-members' ) . '</a>';
+				$str.= ' <a href="' . WPMEM_REGURL . '"><button class="btn">' . __( 'Register', 'wp-members' ) . '</button></a>';
 			}
 					
-			$str.= '</div>
+			$str.= '
 				</form>
 			</fieldset>';
 			

@@ -202,7 +202,7 @@ input[type=text], input.text, input.title, textarea, select {
 	color:#aaa;
 	padding:9px 10px;
 	font-style:italic;
-	width: 368px;
+	/*width: 368px;*/
 	box-shadow: 0 2px 2px #e5e5e5 inset;
 	margin: 0 0 20px;
 }

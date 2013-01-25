@@ -14,8 +14,6 @@
     <head profile="http://gmpg.org/xfn/11">
         <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
         <title><?php wp_title('|', true, 'right'); ?></title>
-        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/css/bootstrap.min.css"/> 
-        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/wp-member-boostrap.css"/> 
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>" />
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
@@ -29,6 +27,8 @@
 
         wp_head();
         ?>
+        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/css/bootstrap.min.css"/> 
+        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/wp-member-boostrap.css"/> 
         <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/js/bootstrap.min.js"></script>
     </head>
     <body <?php body_class(); ?>>
@@ -50,7 +50,7 @@
                     if (!is_user_logged_in()) {
                         if (WPMEM_REGURL != null) {
                             ?>
-                            <button type="button" class="btn-mini" onclick="window.location='<?php echo WPMEM_REGURL; ?>'"><?php _e('Sign Up', 'wp-members'); ?></button>
+                            <button class="btn-mini btn-success" onclick="window.location='<?php echo WPMEM_REGURL; ?>'"><?php _e('Sign Up', 'wp-members'); ?></button>
 
                             <?php
                         }
@@ -58,8 +58,8 @@
                             $link = wpmem_chk_qstr(WPMEM_MSURL);
                             $resetlink = $link . '?a=pwdreset';
                             ?>
-                            <button type="button" class="btn-mini" onclick="window.location='<?php echo $link; ?>'"><?php _e('Login', 'wp-members'); ?></button>
-                            <button type="button" class="btn-mini" onclick="window.location='<?php echo $resetlink; ?>'"><?php _e('Forgot?', 'wp-members'); ?></button>
+                            <button class="btn btn-mini" onclick="window.location='<?php echo $link; ?>'"><?php _e('Login', 'wp-members'); ?></button>
+                            <button class="btn btn-mini" onclick="window.location='<?php echo $resetlink; ?>'"><?php _e('Forgot?', 'wp-members'); ?></button>
                             <?php
                         }
                     } else {
@@ -68,8 +68,8 @@
                             $editlink = $link . '?a=edit';
                             $logoutlink = $link . '?a=logout';
                             ?>
-                            <button type="button" class="btn-mini" onclick="window.location='<?php echo $editlink; ?>'"><?php _e('Edit Profile', 'wp-members'); ?></button>
-                            <button type="button" class="btn-mini" onclick="window.location='<?php echo $logoutlink; ?>'"><?php _e('Logout', 'wp-members'); ?></button>
+                            <button class="btn btn-mini" onclick="window.location='<?php echo $editlink; ?>'"><?php _e('Edit Profile', 'wp-members'); ?></button>
+                            <button class="btn btn-mini" onclick="window.location='<?php echo $logoutlink; ?>'"><?php _e('Logout', 'wp-members'); ?></button>
                             <?php
                         }
                     }

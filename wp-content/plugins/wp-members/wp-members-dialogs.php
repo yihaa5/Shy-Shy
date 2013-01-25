@@ -470,7 +470,7 @@ function wpmem_inc_registration_NEW( $toggle = 'new', $heading = '' )
 		if( $wpmem_captcha[0] && $wpmem_captcha[1] ) {
 
 			$form = $form . '<div class="clear"></div>
-				<div align="right" class="captcha">';
+				<div class="captcha">';
 			$form = $form . wpmem_inc_recaptcha( $wpmem_captcha[0], $wpmem_captcha[2] );
 			$form = $form . '</div>';
 		} 
@@ -484,8 +484,8 @@ function wpmem_inc_registration_NEW( $toggle = 'new', $heading = '' )
 
 	$form = $form . '<input name="redirect_to" type="hidden" value="' . get_permalink() . '" />
 		<div class="button_div">
-			<input name="reset" type="reset" value="' . __( 'Clear Form', 'wp-members' ) . '" class="buttons" />
-			<input name="submit" type="submit" value="' . __( 'Submit', 'wp-members' ) . '" class="buttons" />
+			<input name="reset" type="reset" value="' . __( 'Clear Form', 'wp-members' ) . '" class="buttons btn" />
+			<input name="submit" type="submit" value="' . __( 'Submit', 'wp-members' ) . '" class="buttons btn" />
 		</div>';
 			
 	// @todo find a better place to put this
@@ -558,9 +558,9 @@ function wpmem_login_form_NEW( $page, $arr )
 	$form = $form . '<div class="button_div">';
 	
 	if ( $arr[7] == 'login' ) {
-		$form = $form . '<input name="rememberme" type="checkbox" id="rememberme" value="forever" />&nbsp;' . __('Remember me', 'wp-members') . '&nbsp;&nbsp;<input type="submit" name="Submit" value="' . $arr[8] . '" class="buttons" />';
+		$form = $form . '<input name="rememberme" type="checkbox" id="rememberme" value="forever" />&nbsp;' . __('Remember me', 'wp-members') . '&nbsp;&nbsp;<input type="submit" name="Submit" value="' . $arr[8] . '" class="buttons btn" />';
 	} else {
-		$form = $form . '<input type="submit" name="Submit" value="' . $arr[8] . '" class="buttons" />';
+		$form = $form . '<input type="submit" name="Submit" value="' . $arr[8] . '" class="buttons btn" />';
 	}
 	
 	$form = $form . '</div>

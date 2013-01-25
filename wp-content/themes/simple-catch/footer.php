@@ -6,6 +6,10 @@
  * @subpackage Simple_Catch
  * @since Simple Catch 1.0
  */
+global $simplecatch_options_settings;
+$options = $simplecatch_options_settings;
+
+$footer_code = $options[ 'footer_code' ];
 ?>
 <div id="footer">
     <div class="layout-978">
@@ -17,8 +21,7 @@
             endif;
             ?>
             
-            <span>Sentosa Club Network Sdn. Bhd. <br>Wisma Sentosa, Jalan Kampong Perak, 05100 Alor Setar, Kedah Darul Aman, Malaysia. <br>Tel: +604-7311333 Fax: +604-7334333 
-                <?php _e('Email:', 'simplecatch'); ?>&nbsp;<?= get_settings('admin_email') ?><br><?php _e('Copyright', 'simplecatch'); ?> &copy; <?php echo date("Y"); ?>. <?php _e('All Rights Reserved.', 'simplecatch'); ?>
+            <span><?= $footer_code ?>                
             </span>    
             
             
